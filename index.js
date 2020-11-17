@@ -5,7 +5,6 @@ function getRandomInt(max) {
 const Discord = require('discord.js');
 const fs = require('fs');
 const path = require('path');
-const imageSearch = require('image-search-google');
 const bot = new Discord.Client();
 const talkedRecently = new Set();
 const talkedRecently2 = new Set();
